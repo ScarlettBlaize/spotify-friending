@@ -5,18 +5,18 @@ export default function CreateProfile() {
         <>
             <h1>Create Profile</h1>
             <p>Write your 5 favorite songs:</p>
-            <label htmlFor="song1">Song 1: </label>
+            <label htmlFor="song1">Song 1:</label>
             <input id="song1" />
-            <label htmlFor="song2">Song 2: </label>
+            <label htmlFor="song2">Song 2:</label>
             <input id="song2" />
-            <label htmlFor="song3">Song 3: </label>
+            <label htmlFor="song3">Song 3:</label>
             <input id="song3" />
-            <input htmlFor="song4">Song 4: </input>
+            <label htmlFor="song4">Song 4:</label>
             <input id="song4" />
-            <label htmlFor="song5">Song 5: </label>
+            <label htmlFor="song5">Song 5:</label>
             <input id="song5" />
-            <label htmlFor="userId"> User ID: </label>
-            <input id="userID" />
+            <label htmlFor="userId">User ID:</label>
+            <input id="userId" />
         </>
     );
 }
