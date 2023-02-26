@@ -33,8 +33,31 @@ export default function CreateProfile() {
             <br></br>
             <label htmlFor="song5">Song 5: </label>
             <input id="song5" />
+
+            <p>Write your 5 favorite artists:</p>
+            
+            <label htmlFor="artist1">Artist 1: </label>
+            <input id="artist1" />
             <br></br>
             <br></br>
+
+            <label htmlFor="artist2">Artist 2: </label>
+            <input id="artist2" />
+            <br></br>
+            <br></br>
+
+            <label htmlFor="artist3">Artist 3: </label>
+            <input id="artist3" />
+            <br></br>
+            <br></br>
+
+            <label htmlFor="artist4">Artist 4: </label>
+            <input id="artist4" />
+            <br></br>
+            <br></br>
+
+            <label htmlFor="artist5">Artist 5: </label>
+            <input id="artist5" />
         </>
     );
 }
